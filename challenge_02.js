@@ -27,10 +27,11 @@ console.log("Alter: " + alter);
 
 if (alter >  0 && alter < 6)
 {
-    console.log("Milch");
+    console.log(namen + "trinkt Milch");
 }
-else if (condition) {
-    
-} else {
-    
+else if (alter >= 6 && alter < 12) {
+    console.log(namen + " " + "trinkt Saft");
+} 
+    else {
+        console.log(namen + " " "trinkt Cola"); 
 }
