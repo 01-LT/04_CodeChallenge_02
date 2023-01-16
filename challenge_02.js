@@ -22,16 +22,23 @@ let namen, alter;
 namen = (prompt("Bitte einen Namen eingeben"));
 alter = (prompt("Bitte ein Alter eingeben")); 
 
-console.log("Name: " + namen);
-console.log("Alter: " + alter);
 
 if (alter >  0 && alter < 6)
 {
-    console.log(namen + "trinkt Milch");
+    console.log(namen + " " + "trinkt Milch");
 }
-else if (alter >= 6 && alter < 12) {
+else if (alter >= 6 && alter <= 12) 
+{
     console.log(namen + " " + "trinkt Saft");
 } 
-    else {
-        console.log(namen + " " "trinkt Cola"); 
-}
+    else if (alter >= 13 && alter <=17 ) 
+    {
+    console.log(namen + " " + "trinkt Cola");
+    } 
+    else
+    {
+    console.log(namen + " " + "trinkt Wein");
+    } 
+
+
+
