@@ -23,7 +23,7 @@ namen = (prompt("Bitte einen Namen eingeben"));
 alter = (prompt("Bitte ein Alter eingeben")); 
 
 
-if (alter >  0 && alter < 6)
+if (alter >=  0 && alter < 6)
 {
     console.log(namen + " " + "trinkt Milch");
 }
@@ -31,7 +31,7 @@ else if (alter >= 6 && alter <= 12)
 {
     console.log(namen + " " + "trinkt Saft");
 } 
-    else if (alter >= 13 && alter <=17 ) 
+    else if (alter >= 13 && alter <= 17 ) 
     {
     console.log(namen + " " + "trinkt Cola");
     } 
